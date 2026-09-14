@@ -1,6 +1,5 @@
 feature: Notificação
 
-minha atividade:
 Envio de email com resultado na disciplina (aprovado, reprovado, final, etc.)
 
 Scenario: Envio de e-mails com resultados finais para a turma com sucesso
@@ -58,3 +57,4 @@ Scenario: Envio automático de novo e-mail após atualização de resultado
   When Eu altero o resultado da aluna "Maria Silva" para "Final"
   Then Eu vejo a mensagem "Resultado atualizado e novo e-mail enviado com sucesso para Maria Silva"
   And Eu vejo o resultado "Final" exibido para a aluna "Maria Silva"
+
